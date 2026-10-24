@@ -311,11 +311,11 @@ sxfy_xuchu:addSkill(sxfyluoyi)
 -- 珠联璧合（按包内注释填写）
 sxfy_caocao:addCompanion("bianhuanghou")
 sxfy_caocao:addCompanion("dianwei")
-sxfy_caocao:addCompanion("xuchu")
+sxfy_caocao:addCompanion("sxfy_xuchu")
 sxfy_xiahoudun:addCompanion("xiahouyuan")
 sxfy_xiahoudun:addCompanion("yujin")
 sxfy_zhangliao:addCompanion("zangba")
-sxfy_xuchu:addCompanion("caocao")
+sxfy_xuchu:addCompanion("sxfy_caocao")
 
 --最后返回包含这个Package对象的表
 return {sixiangfengyin}
